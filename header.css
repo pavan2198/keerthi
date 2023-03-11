@@ -1,0 +1,166 @@
+
+
+
+.search-bar{
+  display: flex;
+  display: inline-flex;
+  height: 80px;
+  width: 80%;
+  border: solid;
+  border-radius: 40px;
+  border: rgb(183, 183, 185);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+margin-left: 5px;
+margin-bottom: 30px;
+font-size: 30px;
+max-width: 80%;
+background-color: aliceblue;
+box-shadow: inset rgba(0, 0, 0, 0.2);
+
+}
+
+.header{
+height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start ;
+  position: fixed;
+  top: 0;
+  bottom:0;
+background-color: white;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+z-index: 100;
+}
+.left-header{
+  display: flex;
+margin-right: 80px;
+justify-content: center;
+padding-top: 35px;
+
+
+}
+.right-header{
+ width: 500px;
+ display: flex;
+flex-shrink: 0;
+  margin-left: 100px;
+  
+  padding-top: 25px;
+  justify-content: end;
+ 
+  
+  
+}
+.middle-header{
+ width: 1500px;
+  
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+}
+
+.ham-menu{
+  
+  height: 70px;
+  width: 70px;
+  margin-right: 60px;
+}
+.youtube-logo{
+  height: 60px;
+}
+
+.up-load{
+  height: 80px;
+  margin-right: 45px;
+}
+.profile-pic{
+  height: 80px;
+  width: 80px;
+  border-radius: 45px;
+  margin-left: 10px;
+  
+}
+
+.search-button{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+.voice-button{
+  height: 30px;
+  width: 30px;
+}
+.search_button{
+  height: 89px;
+  display: inline-block;
+  width: 89px;
+  border-radius: 45px;
+  background-color: aliceblue ;
+  margin-left: 40px;
+  margin-right: 40px;
+border: none;
+}
+.voice_button{
+  height: 89px;
+  width: 89px;
+  display: inline-block;
+  border-radius: 45px;
+  background-color: aliceblue;
+border: none;
+}
+
+.search-bar::placeholder{
+color: gray;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+align-items: center;
+  padding-left: 0px;
+}
+.search_button:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.voice_button:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.search-bar:hover
+{
+  background-color : rgb(160, 164, 168);
+cursor : text;
+}
+.search-bar:active
+
+
+{
+  opacity: 0.2;
+}
+.up-load:active
+
+{
+  opacity: 0.2;
+
+}
+.profile-pic:hover{
+  opacity: 0.6;
+}
+.profile-pic:active{
+  opacity: 0.2;
+}
+.voice_button:active{
+  opacity: 0.2;
+}
+.search_button:active{
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
